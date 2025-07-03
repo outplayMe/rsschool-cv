@@ -12,3 +12,12 @@ Yes
 
 - javaskrypt
 - backflip
+
+## Code example
+
+`>2+2`
+`4`
+
+## Education
+
+- University of Embu
