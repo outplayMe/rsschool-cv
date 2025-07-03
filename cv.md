@@ -21,3 +21,8 @@ Yes
 ## Education
 
 - University of Embu
+
+## Languages
+
+- belarusian - native
+- english - intermediate+
