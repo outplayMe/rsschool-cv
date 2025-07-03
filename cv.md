@@ -2,4 +2,13 @@
 
 ## Contacts
 
-discord: @qqqqqqq
+- discord: @qqqqqqq
+
+## About me
+
+Yes
+
+## Skills
+
+- javaskrypt
+- backflip
