@@ -10,9 +10,14 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style-type: none;
+}
+
 body {
   background-color: var(--page-bg-color);
   font-family: 'Roboto', sans-serif;
+  color: #434a54;
 }
 
 .title {
@@ -64,5 +69,39 @@ body {
   transform: translateY(8px);
 }
 
-.header__info {
+.about {
+  width: 50%;
+}
+
+.about__info {
+  line-height: 140%;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-title {
+  margin-bottom: 7px;
+  font-size: 28px;
+}
+
+.contacts {
+  width: 30%;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.section-divider {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e3e3;
+  padding-bottom: 20px;
 }
