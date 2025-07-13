@@ -45,7 +45,7 @@ body {
   background-color: var(--header-bg-color);
   background-image: url('./bg-grid.png');
   background-repeat: repeat;
-  background-size: 200px;
+  background-size: 228px;
 }
 
 .header__content {
@@ -74,6 +74,7 @@ body {
 /* Nav */
 .prenav {
   margin-bottom: 5px;
+  opacity: 0.6;
 }
 
 .nav__list {
@@ -82,7 +83,6 @@ body {
 }
 
 .nav__list-link {
-  opacity: 0.6;
   color: inherit;
   text-decoration: none;
   transition: 0.1666s ease-in-out;
