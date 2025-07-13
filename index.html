@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon" />
+    <title>Shauhenia Kiryl CV</title>
+  </head>
+  <body>
+    <div class="cv-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <img
+              src="./avatar.jpg"
+              alt="literally mine photo"
+              class="header__img"
+            />
+            <div class="header__info">
+              <h1 class="header__title title">Kiryl Shauhenia</h1>
+              <h2 class="header__subtitle">Frontend developer</h2>
+              <p class="prenav">Jump to:</p>
+              <nav class="header__nav nav">
+                <ul class="nav__list">
+                  <li class="nav__list-item">
+                    <a href="#about" class="nav__list-link">About</a>
+                  </li>
+                  <li class="nav__list-item">
+                    <a href="#skills" class="nav__list-link">Skills</a>
+                  </li>
+                  <li class="nav__list-item">
+                    <a href="#projects" class="nav__list-link">Projects</a>
+                  </li>
+                  <li class="nav__list-item">
+                    <a href="#lang" class="nav__list-link">Languages</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="section-wrapper">
+            <section class="about" id="about">
+              <h2 class="about__title section-title">About me</h2>
+              <p class="about__info">
+                Hello! I'm Kiryl. I am passionate about web development. <br />
+                I am skilled in frontend and have experience in backend on
+                Node.js(express and nest.js)
+              </p>
+            </section>
+            <section class="contacts">
+              <h2 class="contacts__title section-title">Contacts</h2>
+              <ul class="contacts__list">
+                <li class="contacts__list-item">
+                  <span class="contacts__list-category">Discord:</span>
+                  <span class="contacts__list-value">kiryl666</span>
+                </li>
+                <li class="contacts__list-item">
+                  <span class="contacts__list-category">Telegram:</span>
+                  <span class="contacts__list-value">-</span>
+                </li>
+                <li class="contacts__list-item">
+                  <span class="contacts__list-category">Email:</span>
+                  <span class="contacts__list-value"
+                    >kirylshauhenia@gmail.com
+                  </span>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <hr class="section-divider" />
+        <section class="skills" id="skills">
+          <div class="container">
+            <h2 class="skills__title section-title">Professional Skills</h2>
+            <div class="skills__wrapper">
+              <ul class="skills__list">
+                <li class="skills__list-item">
+                  <span class="skills__name">HTML</span>
+                  <span
+                    class="skills__level-bar"
+                    style="--skill-level: 90%"
+                  ></span>
+                </li>
+                <li class="skills__list-item">
+                  <span class="skills__name">CSS/SASS</span>
+                  <span
+                    class="skills__level-bar"
+                    style="--skill-level: 90%"
+                  ></span>
+                </li>
+                <li class="skills__list-item">
+                  <span class="skills__name">Javascript</span>
+                  <span
+                    class="skills__level-bar"
+                    style="--skill-level: 70%"
+                  ></span>
+                </li>
+              </ul>
+              <ul class="skills__list">
+                <li class="skills__list-item">
+                  <span class="skills__name">Node.js</span>
+                  <span
+                    class="skills__level-bar"
+                    style="--skill-level: 65%"
+                  ></span>
+                </li>
+                <li class="skills__list-item">
+                  <span class="skills__name">Express.js</span>
+                  <span
+                    class="skills__level-bar"
+                    style="--skill-level: 80%"
+                  ></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <hr class="section-divider" />
+        <section class="code">
+          <div class="container">
+            <h2 class="code__title section-title">Code Example</h2>
+            <pre class="code__pre">
+function countSmileys(arr) {
+  return arr.filter(el => el.match(/^[:;][~-]?[)D]$/)).length;
+}</pre
+            >
+          </div>
+        </section>
+        <hr class="section-divider" />
+        <section class="projects" id="projects">
+          <div class="container">
+            <h2 class="projects__title section-title">Projects</h2>
+            <a
+              href="https://outplayme.github.io/rsschool-cv/"
+              class="projects__link"
+            >
+              <img
+                src="./projects-img.jpg"
+                alt="cv project picture"
+                class="projects__link-img"
+              />
+            </a>
+          </div>
+        </section>
+        <hr class="section-divider" />
+        <section class="education">
+          <div class="container">
+            <h2 class="education__title section-title">Education</h2>
+            <p class="education__years">2001 - now</p>
+            <p class="education__description">
+              Committed to lifelong learning — constantly exploring new skills,
+              analyzing trends, and turning ideas into actionable knowledge.
+            </p>
+          </div>
+        </section>
+        <hr class="section-divider" />
+        <section class="languages" id="lang">
+          <div class="container">
+            <h2 class="languages__title section-title">Languages</h2>
+            <p class="languages__description">English - Intermediate+</p>
+            <p class="languages__description">Russian - native</p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h3 style="display: none">
+          Seed фраза от бинанс кошелька с 5 биткоинами: carpet cat flower chair
+          foot river make image amazing three say shoe, время пошло😄
+        </h3>
+      </footer>
+    </div>
+  </body>
+</html>
